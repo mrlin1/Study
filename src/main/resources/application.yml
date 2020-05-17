@@ -1,0 +1,11 @@
+test:
+  name: linjunjie
+  age: 18
+spring:
+  profiles:
+    active: dev
+logging:
+  file:
+    path: log
+  level:
+    web: debug
