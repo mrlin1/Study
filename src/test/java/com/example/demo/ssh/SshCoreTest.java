@@ -15,7 +15,7 @@ public class SshCoreTest {
         entity.setPort(22);
 
         try (SshCore sshCore = new SshCore(entity)) {
-            sshCore.createDir();
+            sshCore.createDir("");
         } catch (JSchException e) {
             e.printStackTrace();
         } catch (Exception e) {
