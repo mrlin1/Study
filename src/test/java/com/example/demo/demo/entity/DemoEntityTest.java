@@ -1,7 +1,7 @@
 package com.example.demo.demo.entity;
 
 import com.example.demo.common.DemoConfig;
-import com.example.demo.common.SpringUtils;
+import com.example.demo.common.util.SpringUtil;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -20,7 +20,7 @@ class DemoEntityTest {
 
     @Test
     void test1() {
-        ApplicationContext context = SpringUtils.getApplicationContext();
+        ApplicationContext context = SpringUtil.getApplicationContext();
 
         System.out.println(1);
     }
